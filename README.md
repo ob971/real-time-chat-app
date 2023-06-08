@@ -19,8 +19,7 @@ MONGO_DB_URI=...
 JWT_SECRET=...
 NODE_ENV=...
 ```
-
-### Build the app
+# Build the app
 
 ```shell
 npm run build
