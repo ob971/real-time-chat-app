@@ -23,7 +23,6 @@ NODE_ENV=...
 ```shell
 npm run build
 ```
-
 ### Start the app
 
 ```shell
