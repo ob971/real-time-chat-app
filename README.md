@@ -24,6 +24,6 @@ npm run build
 ```
 ### Start the app
 
-```shell
+shell
 npm start
 ```
