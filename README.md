@@ -2,7 +2,6 @@
 
 
 
-
 Some Features:
  Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
  Authentication && Authorization with JWT
