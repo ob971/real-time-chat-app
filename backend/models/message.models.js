@@ -17,9 +17,10 @@ const messageSchema = new mongoose.Schema(
 			required: true,
 		},
 		// createdAt, updatedAt
-
-
 		
+
+
+
 	},
 	{ timestamps: true }
 );
