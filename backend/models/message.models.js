@@ -11,7 +11,7 @@ const messageSchema = new mongoose.Schema(
 			type: mongoose.Schema.Types.ObjectId,
 			ref: "User",
 			required: true,
-			
+
 		},
 		message: {
 			type: String,
@@ -27,6 +27,7 @@ const messageSchema = new mongoose.Schema(
 );
 
 const Message = mongoose.model("Message", messageSchema);
+
 
 
 export default Message;
