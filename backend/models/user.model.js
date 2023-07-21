@@ -5,6 +5,7 @@ const userSchema = new mongoose.Schema(
 		fullName: {
 			type: String,
 			required: true,
+			
 		},
 		username: {
 			type: String,
@@ -16,7 +17,7 @@ const userSchema = new mongoose.Schema(
 			required: true,
 			minlength: 6,
 		},
-		
+
 		gender: {
 			type: String,
 			required: true,
