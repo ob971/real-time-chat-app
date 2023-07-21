@@ -12,7 +12,7 @@ const userSchema = new mongoose.Schema(
 			required: true,
 			unique: true,
 		},
-		
+
 		password: {
 			type: String,
 			required: true,
@@ -32,6 +32,7 @@ const userSchema = new mongoose.Schema(
 		// createdAt, updatedAt => Member since <createdAt>
 	},
 	{ timestamps: true }
+	
 );
 
 const User = mongoose.model("User", userSchema);
