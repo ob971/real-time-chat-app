@@ -12,6 +12,7 @@ const userSchema = new mongoose.Schema(
 			required: true,
 			unique: true,
 		},
+		
 		password: {
 			type: String,
 			required: true,
@@ -23,7 +24,7 @@ const userSchema = new mongoose.Schema(
 			required: true,
 			enum: ["male", "female"],
 		},
-		
+
 		profilePic: {
 			type: String,
 			default: "",
