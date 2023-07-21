@@ -5,7 +5,7 @@ const userSchema = new mongoose.Schema(
 		fullName: {
 			type: String,
 			required: true,
-			
+
 		},
 		username: {
 			type: String,
@@ -23,6 +23,7 @@ const userSchema = new mongoose.Schema(
 			required: true,
 			enum: ["male", "female"],
 		},
+		
 		profilePic: {
 			type: String,
 			default: "",
