@@ -21,7 +21,8 @@ const __dirname = path.resolve();
 dotenv.config();
 
 
-app.use(express.json()); // to parse the incoming requests with JSON payloads (from req.body)
+app.use(express.json());
+// to parse the incoming requests with JSON payloads (from req.body)
 app.use(cookieParser());
 
 app.use("/api/auth", authRoutes);
