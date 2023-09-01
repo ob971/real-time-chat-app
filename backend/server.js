@@ -11,8 +11,6 @@ import userRoutes from "./routes/user.routes.js";
 import connectToMongoDB from "./db/connectToMongoDB.js";
 
 
-
-
 const app = express();
 
 const __dirname = path.resolve();
